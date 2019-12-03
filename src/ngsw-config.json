@@ -12,17 +12,20 @@
           "/*.js"
         ]
       }
-    }, {
+    },
+    {
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
       "resources": {
         "files": [
           "/assets/**",
-          "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)", " !/assets/material-design-icons/** "
+          "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)",
+          " !/assets/material-design-icons/** "
         ]
       }
-    }, {
+    },
+    {
       "name": "fonts",
       "resources": {
         "urls": [
@@ -30,13 +33,40 @@
           "https://fonts.gstatic.com/**"
         ]
       }
-    }, {
+    },
+    {
       "name": "icon-fonts",
       "installMode": "prefetch",
       "resources": {
         "files": [
           "/assets/material-design-icons/**"
         ]
+      }
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "api-freshness",
+      "urls": [
+        "/timeline"
+      ],
+      "cacheConfig": {
+        "maxSize": 100,
+        "maxAge": "3d",
+        "timeout": "1m",
+        "strategy": "freshness"
+      }
+    },
+    {
+      "name": "api-performance",
+      "urls": [
+        "/favorites"
+      ],
+      "cacheConfig": {
+        "maxSize": 100,
+        "maxAge": "3d",
+        "timeout": "10s",
+        "strategy": "performance"
       }
     }
   ]

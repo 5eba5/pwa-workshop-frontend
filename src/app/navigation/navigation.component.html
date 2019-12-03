@@ -21,7 +21,8 @@
         (click)="drawer.toggle()">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      <span>Angular PWA - Knowledge Transfer - 04.12.2019</span>
+      <span class="title"> Angular PWA - Knowledge Transfer - 04.12.2019</span>
+      <button mat-raised-button (click)="install()" [disabled]="btnInstallDisabled">Install</button>
     </mat-toolbar>
     
     <router-outlet></router-outlet>

@@ -1,11 +1,11 @@
 {
-  "name": "angular-pwa",
-  "short_name": "angular-pwa",
-  "theme_color": "#1976d2",
-  "background_color": "#fafafa",
+  "name": "Angular PWA Workshop",
+  "short_name": "Angular PWA",
+  "theme_color": "#5921c8",
+  "background_color": "#9ec6d5",
   "display": "standalone",
   "scope": "/",
-  "start_url": "/",
+  "start_url": "/?pwa",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",

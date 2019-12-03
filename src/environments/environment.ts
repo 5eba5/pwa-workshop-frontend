@@ -7,7 +7,7 @@ export const environment = {
   config: {
     "DATA_API_URL": "http://localhost:3000",
     "PUSH_API_URL": "http://localhost:3000",
-    "VAPID_PUBLIC_KEY": "BDdd7gCZBaIveS4cNxpoLwshRncIySUIbIaIMWmBGYCLAS6E0u0Hm4ztVXoC43GGx3Dsvz8CdD57lEgXfOrqX0Q"
+    "VAPID_PUBLIC_KEY": "BKOlHxG1jeX0xcrpcfN7KyjTARNtXRikSbpnE3xHOw_VmAnMWh6hH1EXq_eS6P6Kmx8muxnIrTLnKpXo9bY55yM"
   }
 };
 

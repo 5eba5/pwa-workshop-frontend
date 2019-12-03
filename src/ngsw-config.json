@@ -69,5 +69,15 @@
         "strategy": "performance"
       }
     }
+  ],
+  "appData": {
+    "versionMessage": "New version: Dashboard was updated!"
+  },
+  "navigationUrls": [
+    "/**",
+    "!/**/*.*",
+    "!/**/*__*",
+    "!/**/*__*/**",
+    "!/**/non-cached-route"
   ]
 }
